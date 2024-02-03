@@ -1,0 +1,417 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
+
+:root{
+    --color-bg:#1EC28C;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    transition: all .2s linear ;
+    text-transform: capitalize;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+
+}
+
+img{
+    width: 100%;
+}
+
+.topnavbar{
+    width: 100%;
+    padding: 1.3rem 4%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #E8F0FE;
+    align-items: center;
+}
+
+.topnavbar ul{
+    display: flex;
+}
+
+.topnavbar ul li {
+    padding-right: 1.3rem;
+    font-size: 1.3rem;
+    
+}
+
+.topnavbar ul li a i{
+    color: var(--color-bg);
+}
+
+.topnavbar ul li a i:hover{
+    color: #E8F0FE;
+}
+
+.input-search{
+    border:2px solid red;
+    width: 100%;
+    border-radius: 2rem;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1.2rem 4% ;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    box-shadow: .1rem .1rem .1rem #1EC28C, .1rem .1rem .1rem #000;
+    background-image: linear-gradient(to right , #1EC28C, rgba(0,0,0,.2));
+    
+
+}
+
+.navbar .logo img{
+    width: 10rem;
+    background-color: #fff;
+
+}
+
+.navbar .logo i{
+    font-size: 4rem;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.navbar ul li{
+    font-size: 2rem;
+    margin-left: 2rem;
+}
+
+.navbar ul li a:hover{
+    color: #1EC28C;
+}
+
+
+.navbar  #menu{
+    font-size: 3.2rem;
+    color: #E8F0FE;
+    display: none;
+}
+
+
+section{
+    margin: 4rem 4%;
+}
+
+
+.exam-box-model{
+    
+  
+  
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  flex: 1 1 100px;
+  border: 1px solid #1EC28C;
+  align-content: space-between;
+  width: 50px;
+  padding: 2rem 1rem;
+  border-radius: 2rem;
+
+   
+   
+   
+   
+
+
+    
+    
+    
+
+}
+
+
+
+
+.exam-zone .exam-box{
+   
+   display: flex;
+   
+   justify-content: space-between;
+   align-items: center;
+   text-align: center;
+   gap: 2rem;
+   margin-right:.5rem ;
+   
+   
+    
+    
+    
+}
+
+ 
+.box-model .box-mocktest{
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+    
+
+}
+
+.box-model .box-mocktest .box-series {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+    flex: 1 1 300px;
+    margin-right: 3rem;
+    
+}
+
+.box-model .box-mocktest .box-series .input-type1{
+  font-size: 1.2rem;
+  border: 1px solid lightcoral;
+  padding: 1rem 2rem;
+}
+
+.box-model .box-mocktest .box-series .input-type2{
+    font-size: 1.2rem;
+    border: 1px solid lightcoral;
+    padding: 1rem 2rem;
+  }
+
+
+.box-model .box-mocktest .box-series .input-type1 select{
+    border: 1px solid red;
+    font-size: 2rem;
+    width: 100%;
+}
+
+
+.box-model .box-mocktest .box-series .input-type2 select{
+    border: 1px solid red;
+    font-size: 2rem;
+    width: 100%;
+}
+
+.wp-group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #1EC28C;
+    padding: 1rem 1rem;
+    box-shadow: .2rem .2rem .2rem .2rem rgba(0,0,0,.2), .3rem .4rem .2rem .2rem rgba(0,0,0,.2);
+}
+
+.group-details{
+    display: flex;
+    align-items: center;
+    padding-right: 3rem;
+   
+}
+
+
+.group-details h1{
+    padding-left: 1rem;
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fixed-menu{
+    display: none;
+    position: fixed;
+    bottom: 0;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    box-shadow: .2rem .2rem .2rem .3rem rgba(0,0,0,.2) , .2rem .2rem .2rem .3rem rgba(0,0,0,.2)  ;
+    text-align: center;
+    flex-wrap: wrap;
+    background-color: #fff;
+    padding: .4rem .9rem;
+    font-size: .9rem;
+
+}
+    
+
+
+.fixed-image{
+    width: 30px;
+    margin: .2rem;
+}
+
+.fixed-menu h1{
+    font-size: 1.2rem;
+}
+
+
+.btn{
+    border: none;
+    padding: 1.2rem 1.3rem;
+    background-color: #1EC28C;
+    color: #fff;
+    font-size: 2rem;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+
+.news-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 2rem;
+    
+
+}  
+
+.news-flex .news-box{
+    flex: 1 1 400px;
+    border: 1px solid lightgray;
+    border-radius: 2rem;
+    box-shadow: .2rem .3rem .4rem rgba(0,0,0,.2);
+}
+
+
+.news-image{
+    width: 100%;
+    border-radius: 2rem;
+}
+
+.news-box-titel{
+    margin: 2rem 3rem;
+}
+
+.leatest-updates h1{
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 2rem 3rem;
+}
+
+
+
+.box-catagrioes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.box-catagrioes .box-model-catagrious{
+    flex: 1 1 400px;
+}
+
+
+
+.box-catagrioes .box-model-catagrious{
+    box-shadow: .2rem .3rem .4rem rgba(0,0,0,.2);
+    border-left:5px solid red ;
+}
+
+
+.box-model-catagrious:nth-child(even){
+    border-left: .9rem solid #1EC28C;
+}
+
+
+.box-model-catagrious:nth-child(odd){
+    border-left: .9rem solid #5375e2;  
+}
+
+
+.box-catagrioes .box-model-catagrious h1{
+    font-size: 2rem;
+    padding: 2rem 3rem;
+}
+
+@media (max-width:991px) {
+
+    html{
+        font-size: 55%;
+    }
+
+    .navbar ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: linear-gradient(to right , #1EC28C, rgba(0,0,0,.2));
+        position: fixed;
+        top:-120rem;
+        right: 0;
+        width: 100%;
+        text-align: center;
+        height: auto;
+        margin-top: .1rem;
+        box-shadow: .1rem .1rem .1rem #1EC28C, .1rem .1rem .1rem #000;
+    }
+
+    .navbar ul li   {
+        margin: 1rem auto;
+        height: auto;
+        border: .1rem solid ;
+        padding: 1rem 2rem;
+        
+        
+    }
+
+    .navbar  #menu{
+        font-size: 3rem;
+        color: #E8F0FE;
+        display: block;
+    }
+
+    .inside-image{
+        display: none;
+    }
+
+    .exam-zone .exam-box{
+   
+        display: flex;
+        
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+        margin-right:.5rem ;
+        
+         
+         
+         
+     }
+
+    
+}
